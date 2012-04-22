@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DA716FB154366FA0014236F /* TXNewTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DA716F9154366FA0014236F /* TXNewTaskViewController.m */; };
+		8DA716FC154366FA0014236F /* TXNewTaskViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DA716FA154366FA0014236F /* TXNewTaskViewController.xib */; };
+		8DA7170015436BB00014236F /* TXFileHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DA716FF15436BB00014236F /* TXFileHelpers.m */; };
+		8DA7170315436E870014236F /* TXTaskDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DA7170215436E870014236F /* TXTaskDetailViewController.m */; };
+		8DDD4937153E414800210E10 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DDD4936153E414800210E10 /* UIKit.framework */; };
+		8DDD4939153E414800210E10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DDD4938153E414800210E10 /* Foundation.framework */; };
+		8DDD493B153E414800210E10 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DDD493A153E414800210E10 /* CoreGraphics.framework */; };
+		8DDD4941153E414800210E10 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8DDD493F153E414800210E10 /* InfoPlist.strings */; };
+		8DDD4943153E414800210E10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DDD4942153E414800210E10 /* main.m */; };
+		8DDD4947153E414800210E10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DDD4946153E414800210E10 /* AppDelegate.m */; };
+		8DDD494A153E414800210E10 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DDD4949153E414800210E10 /* FirstViewController.m */; };
+		8DDD494C153E414800210E10 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DDD494B153E414800210E10 /* first.png */; };
+		8DDD494E153E414800210E10 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DDD494D153E414800210E10 /* first@2x.png */; };
+		8DDD4951153E414800210E10 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DDD4950153E414800210E10 /* SecondViewController.m */; };
+		8DDD4953153E414800210E10 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DDD4952153E414800210E10 /* second.png */; };
+		8DDD4955153E414800210E10 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DDD4954153E414800210E10 /* second@2x.png */; };
+		8DDD4958153E414800210E10 /* FirstViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DDD4956153E414800210E10 /* FirstViewController_iPhone.xib */; };
+		8DDD495B153E414800210E10 /* FirstViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DDD4959153E414800210E10 /* FirstViewController_iPad.xib */; };
+		8DDD495E153E414800210E10 /* SecondViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DDD495C153E414800210E10 /* SecondViewController_iPhone.xib */; };
+		8DDD4961153E414800210E10 /* SecondViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DDD495F153E414800210E10 /* SecondViewController_iPad.xib */; };
+		8DDD4969153E414800210E10 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DDD4968153E414800210E10 /* SenTestingKit.framework */; };
+		8DDD496A153E414800210E10 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DDD4936153E414800210E10 /* UIKit.framework */; };
+		8DDD496B153E414800210E10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DDD4938153E414800210E10 /* Foundation.framework */; };
+		8DDD4973153E414800210E10 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8DDD4971153E414800210E10 /* InfoPlist.strings */; };
+		8DDD4976153E414800210E10 /* TXTODOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DDD4975153E414800210E10 /* TXTODOTests.m */; };
+		8DFDBC1C1543442900EAFDD0 /* TXUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DFDBC1B1543442900EAFDD0 /* TXUser.m */; };
+		8DFDBC20154344D800EAFDD0 /* TXPowerUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DFDBC1F154344D800EAFDD0 /* TXPowerUser.m */; };
+		8DFDBC231543459600EAFDD0 /* TXServerAdmin.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DFDBC221543459600EAFDD0 /* TXServerAdmin.m */; };
+		8DFDBC261543512600EAFDD0 /* TXComputer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DFDBC251543512600EAFDD0 /* TXComputer.m */; };
+		8DFDBC2815435C1400EAFDD0 /* computerexample in Resources */ = {isa = PBXBuildFile; fileRef = 8DFDBC2715435C1400EAFDD0 /* computerexample */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8DDD496C153E414800210E10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DDD4929153E414700210E10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DDD4931153E414800210E10;
+			remoteInfo = TXTODO;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8DA716F8154366FA0014236F /* TXNewTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXNewTaskViewController.h; sourceTree = "<group>"; };
+		8DA716F9154366FA0014236F /* TXNewTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXNewTaskViewController.m; sourceTree = "<group>"; };
+		8DA716FA154366FA0014236F /* TXNewTaskViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TXNewTaskViewController.xib; sourceTree = "<group>"; };
+		8DA716FE15436BB00014236F /* TXFileHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXFileHelpers.h; sourceTree = "<group>"; };
+		8DA716FF15436BB00014236F /* TXFileHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXFileHelpers.m; sourceTree = "<group>"; };
+		8DA7170115436E870014236F /* TXTaskDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXTaskDetailViewController.h; sourceTree = "<group>"; };
+		8DA7170215436E870014236F /* TXTaskDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXTaskDetailViewController.m; sourceTree = "<group>"; };
+		8DA71704154371CE0014236F /* TXTaskCreatorProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TXTaskCreatorProtocol.h; sourceTree = "<group>"; };
+		8DDD4932153E414800210E10 /* TXTODO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TXTODO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DDD4936153E414800210E10 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8DDD4938153E414800210E10 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8DDD493A153E414800210E10 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8DDD493E153E414800210E10 /* TXTODO-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TXTODO-Info.plist"; sourceTree = "<group>"; };
+		8DDD4940153E414800210E10 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8DDD4942153E414800210E10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8DDD4944153E414800210E10 /* TXTODO-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TXTODO-Prefix.pch"; sourceTree = "<group>"; };
+		8DDD4945153E414800210E10 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8DDD4946153E414800210E10 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8DDD4948153E414800210E10 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		8DDD4949153E414800210E10 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		8DDD494B153E414800210E10 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		8DDD494D153E414800210E10 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		8DDD494F153E414800210E10 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		8DDD4950153E414800210E10 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		8DDD4952153E414800210E10 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		8DDD4954153E414800210E10 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		8DDD4957153E414800210E10 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController_iPhone.xib; sourceTree = "<group>"; };
+		8DDD495A153E414800210E10 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController_iPad.xib; sourceTree = "<group>"; };
+		8DDD495D153E414800210E10 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController_iPhone.xib; sourceTree = "<group>"; };
+		8DDD4960153E414800210E10 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController_iPad.xib; sourceTree = "<group>"; };
+		8DDD4967153E414800210E10 /* TXTODOTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TXTODOTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DDD4968153E414800210E10 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		8DDD4970153E414800210E10 /* TXTODOTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TXTODOTests-Info.plist"; sourceTree = "<group>"; };
+		8DDD4972153E414800210E10 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8DDD4974153E414800210E10 /* TXTODOTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TXTODOTests.h; sourceTree = "<group>"; };
+		8DDD4975153E414800210E10 /* TXTODOTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXTODOTests.m; sourceTree = "<group>"; };
+		8DFDBC1A1543442900EAFDD0 /* TXUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXUser.h; sourceTree = "<group>"; };
+		8DFDBC1B1543442900EAFDD0 /* TXUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXUser.m; sourceTree = "<group>"; };
+		8DFDBC1E154344D800EAFDD0 /* TXPowerUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXPowerUser.h; sourceTree = "<group>"; };
+		8DFDBC1F154344D800EAFDD0 /* TXPowerUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXPowerUser.m; sourceTree = "<group>"; };
+		8DFDBC211543459600EAFDD0 /* TXServerAdmin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXServerAdmin.h; sourceTree = "<group>"; };
+		8DFDBC221543459600EAFDD0 /* TXServerAdmin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXServerAdmin.m; sourceTree = "<group>"; };
+		8DFDBC241543512600EAFDD0 /* TXComputer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXComputer.h; sourceTree = "<group>"; };
+		8DFDBC251543512600EAFDD0 /* TXComputer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXComputer.m; sourceTree = "<group>"; };
+		8DFDBC2715435C1400EAFDD0 /* computerexample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = computerexample; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DDD492F153E414800210E10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DDD4937153E414800210E10 /* UIKit.framework in Frameworks */,
+				8DDD4939153E414800210E10 /* Foundation.framework in Frameworks */,
+				8DDD493B153E414800210E10 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DDD4963153E414800210E10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DDD4969153E414800210E10 /* SenTestingKit.framework in Frameworks */,
+				8DDD496A153E414800210E10 /* UIKit.framework in Frameworks */,
+				8DDD496B153E414800210E10 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8DDD4927153E414700210E10 = {
+			isa = PBXGroup;
+			children = (
+				8DA71704154371CE0014236F /* TXTaskCreatorProtocol.h */,
+				8DA7170115436E870014236F /* TXTaskDetailViewController.h */,
+				8DA7170215436E870014236F /* TXTaskDetailViewController.m */,
+				8DA716FE15436BB00014236F /* TXFileHelpers.h */,
+				8DA716FF15436BB00014236F /* TXFileHelpers.m */,
+				8DFDBC2715435C1400EAFDD0 /* computerexample */,
+				8DA716F8154366FA0014236F /* TXNewTaskViewController.h */,
+				8DA716F9154366FA0014236F /* TXNewTaskViewController.m */,
+				8DA716FA154366FA0014236F /* TXNewTaskViewController.xib */,
+				8DDD493C153E414800210E10 /* TXTODO */,
+				8DDD496E153E414800210E10 /* TXTODOTests */,
+				8DDD4935153E414800210E10 /* Frameworks */,
+				8DDD4933153E414800210E10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8DDD4933153E414800210E10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DDD4932153E414800210E10 /* TXTODO.app */,
+				8DDD4967153E414800210E10 /* TXTODOTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DDD4935153E414800210E10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DDD4936153E414800210E10 /* UIKit.framework */,
+				8DDD4938153E414800210E10 /* Foundation.framework */,
+				8DDD493A153E414800210E10 /* CoreGraphics.framework */,
+				8DDD4968153E414800210E10 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8DDD493C153E414800210E10 /* TXTODO */ = {
+			isa = PBXGroup;
+			children = (
+				8DDD4945153E414800210E10 /* AppDelegate.h */,
+				8DDD4946153E414800210E10 /* AppDelegate.m */,
+				8DDD4948153E414800210E10 /* FirstViewController.h */,
+				8DDD4949153E414800210E10 /* FirstViewController.m */,
+				8DDD494B153E414800210E10 /* first.png */,
+				8DDD494D153E414800210E10 /* first@2x.png */,
+				8DDD494F153E414800210E10 /* SecondViewController.h */,
+				8DDD4950153E414800210E10 /* SecondViewController.m */,
+				8DDD4952153E414800210E10 /* second.png */,
+				8DDD4954153E414800210E10 /* second@2x.png */,
+				8DDD4956153E414800210E10 /* FirstViewController_iPhone.xib */,
+				8DDD4959153E414800210E10 /* FirstViewController_iPad.xib */,
+				8DDD495C153E414800210E10 /* SecondViewController_iPhone.xib */,
+				8DDD495F153E414800210E10 /* SecondViewController_iPad.xib */,
+				8DDD493D153E414800210E10 /* Supporting Files */,
+			);
+			path = TXTODO;
+			sourceTree = "<group>";
+		};
+		8DDD493D153E414800210E10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8DDD493E153E414800210E10 /* TXTODO-Info.plist */,
+				8DDD493F153E414800210E10 /* InfoPlist.strings */,
+				8DDD4942153E414800210E10 /* main.m */,
+				8DDD4944153E414800210E10 /* TXTODO-Prefix.pch */,
+				8DFDBC1A1543442900EAFDD0 /* TXUser.h */,
+				8DFDBC1B1543442900EAFDD0 /* TXUser.m */,
+				8DFDBC1E154344D800EAFDD0 /* TXPowerUser.h */,
+				8DFDBC1F154344D800EAFDD0 /* TXPowerUser.m */,
+				8DFDBC211543459600EAFDD0 /* TXServerAdmin.h */,
+				8DFDBC221543459600EAFDD0 /* TXServerAdmin.m */,
+				8DFDBC241543512600EAFDD0 /* TXComputer.h */,
+				8DFDBC251543512600EAFDD0 /* TXComputer.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8DDD496E153E414800210E10 /* TXTODOTests */ = {
+			isa = PBXGroup;
+			children = (
+				8DDD4974153E414800210E10 /* TXTODOTests.h */,
+				8DDD4975153E414800210E10 /* TXTODOTests.m */,
+				8DDD496F153E414800210E10 /* Supporting Files */,
+			);
+			path = TXTODOTests;
+			sourceTree = "<group>";
+		};
+		8DDD496F153E414800210E10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8DDD4970153E414800210E10 /* TXTODOTests-Info.plist */,
+				8DDD4971153E414800210E10 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DDD4931153E414800210E10 /* TXTODO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DDD4979153E414800210E10 /* Build configuration list for PBXNativeTarget "TXTODO" */;
+			buildPhases = (
+				8DDD492E153E414800210E10 /* Sources */,
+				8DDD492F153E414800210E10 /* Frameworks */,
+				8DDD4930153E414800210E10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TXTODO;
+			productName = TXTODO;
+			productReference = 8DDD4932153E414800210E10 /* TXTODO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8DDD4966153E414800210E10 /* TXTODOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DDD497C153E414800210E10 /* Build configuration list for PBXNativeTarget "TXTODOTests" */;
+			buildPhases = (
+				8DDD4962153E414800210E10 /* Sources */,
+				8DDD4963153E414800210E10 /* Frameworks */,
+				8DDD4964153E414800210E10 /* Resources */,
+				8DDD4965153E414800210E10 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DDD496D153E414800210E10 /* PBXTargetDependency */,
+			);
+			name = TXTODOTests;
+			productName = TXTODOTests;
+			productReference = 8DDD4967153E414800210E10 /* TXTODOTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DDD4929153E414700210E10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = ChaiONE;
+			};
+			buildConfigurationList = 8DDD492C153E414700210E10 /* Build configuration list for PBXProject "TXTODO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8DDD4927153E414700210E10;
+			productRefGroup = 8DDD4933153E414800210E10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DDD4931153E414800210E10 /* TXTODO */,
+				8DDD4966153E414800210E10 /* TXTODOTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DDD4930153E414800210E10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DDD4941153E414800210E10 /* InfoPlist.strings in Resources */,
+				8DDD494C153E414800210E10 /* first.png in Resources */,
+				8DDD494E153E414800210E10 /* first@2x.png in Resources */,
+				8DDD4953153E414800210E10 /* second.png in Resources */,
+				8DDD4955153E414800210E10 /* second@2x.png in Resources */,
+				8DDD4958153E414800210E10 /* FirstViewController_iPhone.xib in Resources */,
+				8DDD495B153E414800210E10 /* FirstViewController_iPad.xib in Resources */,
+				8DDD495E153E414800210E10 /* SecondViewController_iPhone.xib in Resources */,
+				8DDD4961153E414800210E10 /* SecondViewController_iPad.xib in Resources */,
+				8DFDBC2815435C1400EAFDD0 /* computerexample in Resources */,
+				8DA716FC154366FA0014236F /* TXNewTaskViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DDD4964153E414800210E10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DDD4973153E414800210E10 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8DDD4965153E414800210E10 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DDD492E153E414800210E10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DDD4943153E414800210E10 /* main.m in Sources */,
+				8DDD4947153E414800210E10 /* AppDelegate.m in Sources */,
+				8DDD494A153E414800210E10 /* FirstViewController.m in Sources */,
+				8DDD4951153E414800210E10 /* SecondViewController.m in Sources */,
+				8DFDBC1C1543442900EAFDD0 /* TXUser.m in Sources */,
+				8DFDBC20154344D800EAFDD0 /* TXPowerUser.m in Sources */,
+				8DFDBC231543459600EAFDD0 /* TXServerAdmin.m in Sources */,
+				8DFDBC261543512600EAFDD0 /* TXComputer.m in Sources */,
+				8DA716FB154366FA0014236F /* TXNewTaskViewController.m in Sources */,
+				8DA7170015436BB00014236F /* TXFileHelpers.m in Sources */,
+				8DA7170315436E870014236F /* TXTaskDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DDD4962153E414800210E10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DDD4976153E414800210E10 /* TXTODOTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8DDD496D153E414800210E10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DDD4931153E414800210E10 /* TXTODO */;
+			targetProxy = 8DDD496C153E414800210E10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8DDD493F153E414800210E10 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DDD4940153E414800210E10 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8DDD4956153E414800210E10 /* FirstViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DDD4957153E414800210E10 /* en */,
+			);
+			name = FirstViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		8DDD4959153E414800210E10 /* FirstViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DDD495A153E414800210E10 /* en */,
+			);
+			name = FirstViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		8DDD495C153E414800210E10 /* SecondViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DDD495D153E414800210E10 /* en */,
+			);
+			name = SecondViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		8DDD495F153E414800210E10 /* SecondViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DDD4960153E414800210E10 /* en */,
+			);
+			name = SecondViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		8DDD4971153E414800210E10 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DDD4972153E414800210E10 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8DDD4977153E414800210E10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8DDD4978153E414800210E10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DDD497A153E414800210E10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TXTODO/TXTODO-Prefix.pch";
+				INFOPLIST_FILE = "TXTODO/TXTODO-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8DDD497B153E414800210E10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TXTODO/TXTODO-Prefix.pch";
+				INFOPLIST_FILE = "TXTODO/TXTODO-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8DDD497D153E414800210E10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TXTODO.app/TXTODO";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TXTODO/TXTODO-Prefix.pch";
+				INFOPLIST_FILE = "TXTODOTests/TXTODOTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		8DDD497E153E414800210E10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TXTODO.app/TXTODO";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TXTODO/TXTODO-Prefix.pch";
+				INFOPLIST_FILE = "TXTODOTests/TXTODOTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DDD492C153E414700210E10 /* Build configuration list for PBXProject "TXTODO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DDD4977153E414800210E10 /* Debug */,
+				8DDD4978153E414800210E10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DDD4979153E414800210E10 /* Build configuration list for PBXNativeTarget "TXTODO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DDD497A153E414800210E10 /* Debug */,
+				8DDD497B153E414800210E10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DDD497C153E414800210E10 /* Build configuration list for PBXNativeTarget "TXTODOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DDD497D153E414800210E10 /* Debug */,
+				8DDD497E153E414800210E10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8DDD4929153E414700210E10 /* Project object */;
+}

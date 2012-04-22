@@ -1,0 +1,12 @@
+//    NSInteger computersToCreate = 8;
+//    NSMutableArray *newComputers = [NSMutableArray array];
+//    for (NSInteger i = 0; i < computersToCreate; i++) {
+//        TXComputer *c = [[TXComputer alloc] init];
+//        [newComputers addObject:c];
+//        [c release];
+//        
+//    }
+//    
+//    
+//    TXServerAdmin *admin = [[[TXServerAdmin alloc] initWithComputers:newComputers]
+//                            autorelease];
